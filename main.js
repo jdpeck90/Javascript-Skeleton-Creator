@@ -118,7 +118,7 @@ fs.writeFile(fileName+'/public/js/script.js', '$(function() {\n  console.log( "s
  })
 
 fs.writeFile(fileName+'/app.js', '/////////------SET UP VARIABLES------/////////\n\
-  const exp = require("express");\nconst app = exp();\nconst mustacheExpress = require("mustache-express");\nconst bodyParser = require("body-parser");\nconst session = require("express-session");\nconst bcrypt = require("bcryptjs");\nconst methodOverride = require("method-override");',  function(err) {
+  const exp = require("express");\nconst app = exp();\nconst mustacheExpress = require("mustache-express");\nconst bodyParser = require("body-parser");\nconst session = require("express-session");\nconst bcrypt = require("bcryptjs");\nconst methodOverride = require("method-override");\n\n/////////------SET UP DATABASE------/////////\nconst pgp = require("pg-promise")();var db = pgp(process.env.DATABASE_URL || "postgres://silverRectangle@localhost:5432/****databaseName****");\n\napp.engine("html", mustacheExpress());\napp.set("view engine","html");\n app.set("views",__dirname + "/views");',  function(err) {
    if (err) {
       console.log('Error: /'+fileName+'/public/js/script.js')
       return console.error(err);
