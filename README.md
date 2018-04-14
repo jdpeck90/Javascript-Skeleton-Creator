@@ -7,7 +7,7 @@ Creates a Javascript CRUD Skeleton
  - More To Come
 
 ### What Necromancer Does
-This node script builds out a complete Javascript CRUD app w/ an express server. This scaffold comes complete with a built out database, public folder(css,js,img), views(index.html) and a completely built out express server in app.js, which is placed in the root folder. 
+This node script builds out a complete Javascript CRUD app w/ an express server. This scaffold comes complete with a built out database, public folder(css,js,img), views(necro.html) and a completely built out express server in app.js, which is placed in the root folder. 
 Find a picture of the expanded file structure below. 
 
 ![Example of file structure](./images/filestructure.png "Example File Structure" )
