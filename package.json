@@ -1,0 +1,24 @@
+{
+  "name": "necromancer",
+  "version": "1.0.0",
+  "description": "Creates a Javascript CRUD Skeleton",
+  "main": "necro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdpeck90/Necromancer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdpeck90/Necromancer/issues"
+  },
+  "homepage": "https://github.com/jdpeck90/Necromancer#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "curlrequest": "^1.0.1",
+    "fs": "0.0.1-security"
+  }
+}
